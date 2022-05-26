@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/Agnesa99/SudokuValidator.git/static/css/main.a417f667.css",
+    "main.js": "/Agnesa99/SudokuValidator.git/static/js/main.7c7a4579.js",
+    "index.html": "/Agnesa99/SudokuValidator.git/index.html",
+    "main.a417f667.css.map": "/Agnesa99/SudokuValidator.git/static/css/main.a417f667.css.map",
+    "main.7c7a4579.js.map": "/Agnesa99/SudokuValidator.git/static/js/main.7c7a4579.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.a417f667.css",
+    "static/js/main.7c7a4579.js"
+  ]
+}
