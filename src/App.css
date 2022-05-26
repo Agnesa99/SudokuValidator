@@ -2,19 +2,8 @@
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
 .App-header {
-  background-color: #282c34;
+  background:linear-gradient(rgba(37, 37, 37, 0.692), black);
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -22,17 +11,66 @@
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
+  font-family: 'Times New Roman', Times, serif;
+}
+button{
+  cursor: pointer;
+}
+.cellInput{
+  width:50px;
+  height: 50px;
+  font-size: 20px;
+  text-align: center;
+  padding: 0px;
+  border: 1px solid black;
 }
 
-.App-link {
-  color: #61dafb;
+table{
+  border-collapse: collapse;
+  border: 3px solid rgba(187, 248, 73, 0.534);
+  background-color: rgba(187, 248, 73, 0.534);
+  margin: 5px 10px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.bBorder{
+  border-bottom: 2px solid #111;
+}
+
+.rBorder{
+  border-right: 2px solid #111;
+}
+
+td{
+  padding: 0;
+}
+
+.buttons{
+  margin-top: 25px;
+}
+.solvebtn{
+   background-color: rgb(190, 95, 6);
+   border: none;
+   border-radius: 23px;
+   padding: 12px 27px;
+   color: #fff;
+   font-size: 16px;
+   margin: 0 25px;   
+}
+.checkbtn{
+  background-color: rgb(170, 39, 16);
+  border: none;
+  border-radius: 23px;
+  padding: 12px 27px;
+  color: #fff;
+  font-size: 16px;
+  
+}
+.resetbtn{
+  background-color: rgb(9, 139, 100);
+  border: none;
+  border-radius: 23px;
+  padding: 12px 27px;
+  color: #fff;
+  font-size: 16px;
+  
 }
